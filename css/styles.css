@@ -727,8 +727,7 @@ section{
   }
 .form-field {
   position: relative;
-  margin-bottom: 28px;
-}
+  
 
 .form-field input{
   width: 100%;
@@ -739,6 +738,8 @@ section{
   box-sizing: border-box;
   border-radius: 4px;
   background-color: #ffffff;
+  margin-bottom: 28px;
+}
 } 
 
 .form-label{
@@ -790,8 +791,8 @@ textarea:not(:placeholder-shown) + .form-label-textarea,
  }
 
 .policy {
-  padding-top: 20px;
-  margin-bottom: 30px ;
+
+  margin-bottom: 30px;
   color: #212121;
   font-size: 14px;
   line-height: 1.71;
