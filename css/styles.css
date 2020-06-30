@@ -246,7 +246,7 @@ input {
 }
 .button-f::after {
   content: ' ';
-  background-image: url(../images/sprite.svg#iconsend);
+  background-image: url(../images/iconsend.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 24px;
@@ -671,6 +671,7 @@ section{
 /*модал */
 
 .backdrop {
+
   position: fixed;
   z-index: 10;
   top: 0;
@@ -744,8 +745,7 @@ section{
 } 
 
 .form-label{
-  left: 42px;
-  
+  left: 42px; 
 }
 .form-label-textarea{
   left: 16px;
