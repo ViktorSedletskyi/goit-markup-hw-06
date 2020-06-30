@@ -51,7 +51,7 @@
         <section class="hero">
             <div class="container">
                 <h1 class="syllable">эффективные решения <br> для вашего бизнеса</h1>
-                <button class="button-service" data-open-modal="">Заказать услугу</button>
+                <button class="button-service" type="button" data-modal-open>Заказать услугу</button>
                 <!-- Модал -->
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
@@ -60,7 +60,7 @@
                             <div class="form-field">
                                 <div class="img-modal">
                                     <svg class="icon-modal" width="18" height="18">
-                                        <use xlink:href="./images/sprite1.svg#person" />
+                                        <use xlink:href="./images/sprite.svg#person" />
                                     </svg>
                                 </div>
                                 <input type="text" name="name" id="name" placeholder=" " autofocus />
@@ -69,7 +69,7 @@
                             <div class="form-field">
                                 <div class="img-modal">
                                     <svg class="icon-modal" width="18" height="18">
-                                        <use xlink:href="./images/sprite1.svg#phone" />
+                                        <use xlink:href="./images/sprite.svg#phone" />
                                     </svg>
                                 </div>
                                 <input type="tel" name="tel" id="tel" placeholder=" " />
@@ -95,10 +95,10 @@
                                 Соглашаюсь с рассылкой и принимаю
                                 <a href="">Условия договора</a>
                             </label>
-                            <button class="btn" type="submit">Отправить</button>
-                            <button type="submit" class="modal-close" data-close-modal>
+                            <button class="button-service" type="submit">Отправить</button>
+                            <button type="submit" class="modal-close" data-modal-close>
                                 <svg class="close-back" width="18" height="18">
-                                    <use xlink:href="./images/sprite.svg#close" />
+                                    <use xlink:href="./images/sprite1.svg#close" />
                                 </svg>
                             </button>
                         </form>
@@ -118,7 +118,7 @@
                             </svg>
                         </div>
                         <h3 class="title">внимание к деталям</h3>
-                        <p class="comment">Идейные соображения, а также начало повседневной работы по формированию
+                        <p class="overview ">Идейные соображения, а также начало повседневной работы по формированию
                             позиции.</p>
                     </li>
                     <li class="item">
@@ -128,7 +128,7 @@
                             </svg>
                         </div>
                         <h3 class="title">пунктуальность</h3>
-                        <p class="comment">Задача организации, в особенности же рамки и место обучения кадров влечет
+                        <p class="overview ">Задача организации, в особенности же рамки и место обучения кадров влечет
                             за
                             собой.</p>
                     </li>
@@ -140,7 +140,7 @@
                             </svg>
                         </div>
                         <h3 class="title">планирование</h3>
-                        <p class="comment">Равным образом консультация с широким активом в значительной степени
+                        <p class="overview">Равным образом консультация с широким активом в значительной степени
                             обуславливает.</p>
                     </li>
 
@@ -151,7 +151,7 @@
                             </svg>
                         </div>
                         <h3 class="title">современые технологии</h3>
-                        <p class="comment">Значимость этих проблем настолько очевидна, что реализация плановых
+                        <p class="overview">Значимость этих проблем настолько очевидна, что реализация плановых
                             заданий.
                         </p>
                     </li>
