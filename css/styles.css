@@ -300,6 +300,7 @@ input {
 }
 
 .button-service{
+  margin-left: 12px;
   display: inline-block;
   min-width: 200px;
   height: 50px;
@@ -312,6 +313,7 @@ input {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
+
 }
 
 /* skills */
@@ -894,4 +896,9 @@ textarea:not(:placeholder-shown)+.form-label-comment {
   background-size: contain;
   background-origin: border-box;
   border-color: transparent;
+}
+.button-o{
+  align-items: center;
+  text-align: center;
+  background-position: center;
 }
