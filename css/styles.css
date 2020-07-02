@@ -900,5 +900,4 @@ textarea:not(:placeholder-shown)+.form-label-comment {
 .button-o{
   align-items: center;
   text-align: center;
-  background-position: center;
 }
