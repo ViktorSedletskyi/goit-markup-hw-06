@@ -841,7 +841,9 @@ textarea:not(:placeholder-shown)+.form-label-comment {
   font-size: 12px;
   color: #2196f3;
 }
-
+.form-field:focus + .form-label-comment{
+  transform: translateY(-50px);
+}
 .form-license {
   display: flex;
   justify-content: center;
